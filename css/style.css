@@ -1,0 +1,153 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+.topcontainer{
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+  padding-top: 100px;
+
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  width: auto;
+  height: 60px;
+  padding: 30px;
+}
+
+.info{
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+h1{
+  font-size: 5.625rem;
+  color: #66BFBF;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+
+}
+h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+a{
+  color: #11999E;
+  padding: 10px;
+}
+a:hover{
+  color: white;
+}
+p{
+  line-height: 2;
+}
+.contact-me{
+  width: 40%;
+  margin: 40px auto 40px auto;
+}
+
+.me{
+  color: #EAF6F6;
+}
+
+
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 200px;
+
+}
+
+
+.bottom-cloud{
+  position: absolute;
+  left: 200px
+}
+.dp{
+  width: 25%;
+}
+
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+.web{
+  width: 30%;
+  float: left;
+  text-align: right;
+  margin-right: 30px;
+}
+
+
+.program{
+width: 30%;
+float: right;
+text-align: left;
+margin-left: 30px;
+}
+
+hr{
+  border-style: none;
+  border-bottom-style: dotted;
+  border-color: gray;
+  border-width: 8px;
+  width: 7%;
+  margin: 80px auto 80px auto;
+}
+.BUTTON {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 0;
+   line-height: 0;
+   color: #FFFFFF;
+   font-family: Garamond;
+   width: 114px;
+   font-size: 24px;
+   font-weight: 300;
+   padding: 26px;
+   background-color: #66BFBF;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 80px auto 80px auto;
+}
+
+.BUTTON:hover {
+   border: inset #FFFFFF 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 28px;
+   -moz-border-radius: 28px;
+   border-radius: 28px;
+   text-decoration: none;
+}
